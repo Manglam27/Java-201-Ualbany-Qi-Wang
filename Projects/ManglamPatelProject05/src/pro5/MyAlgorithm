@@ -1,0 +1,12 @@
+Input
+
+All input will be handled by the Shapes.txt file in package folder. 
+Process
+
+Init empty array of shape class.
+Now fetch all the data like shape type, name, areas from the file.
+After fetching data, process that data according to the shape type, for eg, if its triangle then, init triangle shape class object, and store it in the array.
+
+Output
+
+Displaying the shape Type, Name, Sides, and Area from the shape array. 

@@ -1,0 +1,19 @@
+Input
+
+Prompt the user to enter the first date's month (allowing full names or abbreviations) and year.
+Prompt the user to enter the second date's month (allowing full names or abbreviations) and year.
+
+Process
+
+Validate Month Input: For each date, validate the month input by converting the full name or abbreviation to a corresponding month number (1 for January, 2 for February, etc.). 
+If the input is invalid, prompt the user again until a valid month is entered.
+Validate Year Input: For each date, validate the year input to ensure it's a positive integer. If the input is invalid (non-integer or non-positive), prompt the user again until a valid year is entered.
+Determine Month Numbers: Convert the validated month names or abbreviations to their respective month numbers using a predefined array of month names.
+Calculate Date Difference:
+	Calculate the absolute difference in years between the two dates.
+	Calculate the difference in months between the two dates.
+	If the month difference is negative, adjust it by adding 12 to the month difference and subtracting 1 from the year difference to properly account for the full year cycle.
+
+Output
+
+Display the Date Difference: Output the calculated difference between the two dates in terms of years and months. Ensure the difference is displayed as non-negative values for both years and months.

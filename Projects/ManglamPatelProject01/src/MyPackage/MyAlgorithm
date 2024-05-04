@@ -1,0 +1,17 @@
+Input
+
+1. Begin by reading the monetary amount entered by the user.
+
+Process
+
+2. Convert the monetary amount from dollars to pennies, ensuring the use of whole numbers for all subsequent calculations.
+3. To calculate the number of ten-dollar bills required, divide the total number of pennies by the value of a ten-dollar bill in pennies.
+4. Update the remaining penny count by using the modulo operator to find the balance after allocating ten-dollar bills.
+5. Follow the same process for five-dollar bills, one-dollar bills, quarters (25 cents), dimes (10 cents), nickels (5 cents), and finally, pennies (1 cent). For each currency denomination:
+6. Calculate the quantity needed by dividing the remaining pennies by the penny value of the denomination.
+7. Use the modulo operator to update the remaining pennies by finding the balance after subtracting the pennies accounted for by the current denomination.
+
+Output
+
+8. Clearly display the total amount entered by the user.
+9. List each denomination, starting with ten-dollar bills and ending with pennies, including the quantity of each needed to make up the total amount.

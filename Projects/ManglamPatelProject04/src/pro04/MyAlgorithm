@@ -1,0 +1,33 @@
+Input
+
+1. Present a Menu to the User: Display options for generating and displaying a grade report, saving the grade report to a file, or quitting the application.
+2. Gather Scores: For the selected option to generate a report, prompt the user to enter scores for two tests for each student.
+3. File Name Request: If the user selects the option to save the report to a file, prompt for a file name where the report will be saved.
+
+Process
+
+1. Menu Selection Handling:
+   - Initialize a loop that continues until the user decides to exit.
+   - Based on the user's menu selection, either proceed to collect scores, save the report to a file, display the report, or exit the application.
+
+2. Score Collection:
+   - For each student, prompt the user to enter scores for two tests.
+   - Validate each score to ensure it's within the acceptable range (0 to 100). If not, prompt the user again until a valid score is entered.
+
+3. Calculate Averages and Grades:
+   - For each student, calculate the average score from the two test scores.
+   - Assign a letter grade based on the calculated average (A for 90 and above, B for 80-89, C for 70-79, and F for below 70).
+
+4. Report Generation:
+   - Depending on the menu selection, either display the grade report on the screen or save it to a file.
+   - If saving to a file, validate and possibly modify the file name to ensure it has a ".txt" extension. Then, write the report to the specified file.
+
+Output
+
+1. Display Grade Report: If the user chooses to display the grade report, print each student's test scores, average, and letter grade in a formatted table to the console.
+
+2. Save Report to File: If the user opts to save the report,
+   - Notify the user of the successful saving of the report to the specified file name.
+   - Include handling for possible exceptions (e.g., file not found) and notify the user accordingly.
+
+3. Exit the Application: If the user chooses to exit, terminate the program after displaying a farewell message.

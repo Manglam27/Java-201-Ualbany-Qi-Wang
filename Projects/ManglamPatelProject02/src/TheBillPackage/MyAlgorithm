@@ -1,0 +1,21 @@
+Input
+
+1. Prompt for Customer Details: Ask the user for the customer's first name, last name, the length and width of the carpet (in feet), and the carpet price per square foot.
+
+Process
+
+2. Convert Name characters Input: Convert the first letter of the first and last names to uppercase and ensure the rest are lowercase.
+3. Calculate Area: Multiply the length by the width to find the area of the carpet in square feet.
+4. Calculate Cost: Multiply the area by the carpet price per square foot to determine the total cost before tax.
+5. Apply Tax: Calculate the tax by multiplying the total cost by the tax rate (8.5%) and add this to the total cost to obtain the final cost.
+6. Generate Customer ID:
+		1. Use the first letter of the first name (capitalized).
+		2. Append the first five characters of the last name (capitalized).
+		3. Generate and append a random two-digit number between 10 and 99.
+7. Format Output: Use the DecimalFormat class to format.
+8. Area to ensure at least three digits with leading zeros if necessary.
+9. Total cost before and after tax to include trailing zeros.
+
+Output
+
+10. Display Bill Details
