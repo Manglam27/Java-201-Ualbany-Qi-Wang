@@ -26,6 +26,6 @@ The `Shape` class represents a generic shape with a name and provides methods to
 - `toString()`: Returns a string representation of this shape.
 
 ## UML Diagram
-![UML Diagram](./ManglamPatelLab11/src/shapes/image.png)
+![UML Diagram](./src/shapes/image.png)
 
 you can [view the UML diagram](https://raw.githubusercontent.com/Manglam27/Java-201-Ualbany-Qi-Wang/main/Labs/ManglamPatelLab11/src/shapes/uml_file.class.violet.html) directly in your browser.
