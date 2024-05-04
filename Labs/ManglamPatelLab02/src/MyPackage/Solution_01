@@ -1,0 +1,16 @@
+Input:
+
+1. Read the number of male students registered in a class.
+2. Read the number of female students registered in a class.
+
+Process:
+
+3. Add the number of male students and the number of female students.
+4. Calculate the total number of students in the class.
+5. Divide the number of male students by the total number of students and multiply by 100 to get the percentage of males.
+6. Divide the number of female students by the total number of students and multiply by 100 to get the percentage of females.
+
+Output:
+
+7. Display the percentage of male students.
+8. Display the percentage of female students.

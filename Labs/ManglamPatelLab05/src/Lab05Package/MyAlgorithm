@@ -1,0 +1,13 @@
+Input: 
+
+Read a month name from the user.
+
+Process:
+
+Convert the first letter of user entered month to upper case and rest to lower case. 
+Assign a month number (1-12) to the month according to its name using a conditional statements (Switch case).
+Also use -1 for invalid user entered month. 
+
+Output: 
+
+Display the month name (January to December) or "invalid" and its ordinal number (1st to 12th) or "invalid" according to its number.

@@ -1,0 +1,21 @@
+Input:
+
+1. Read the year: Prompt the user to enter the year for the class. Store this in a variable.
+2. Read the semester: Prompt the user to enter the semester (e.g., Spring, Fall). Store this in a variable.
+3. Read the course: Prompt the user to enter the course code (e.g., ICSI201). Store this in a variable.
+4. Read the number of male students: Prompt the user to enter the number of male students registered in the class. Store this in a variable.
+5. Read the number of female students: Prompt the user to enter the number of female students registered in the class. Store this in a variable.
+
+Process:
+
+6. Format the semester: Convert the first letter of the semester input to uppercase and the rest to lowercase to ensure title case.
+7. Format the course: Convert the course code input to uppercase.
+8. Add the number of male and female students: Calculate the total number of students in the class by adding the number of male students to the number of female students.
+9. Calculate the percentage of male students: Divide the number of male students by the total number of students and multiply by 100.
+10.Calculate the percentage of female students: Divide the number of female students by the total number of students and multiply by 100.
+
+Output:
+
+11.Display the formatted semester and course: Print the semester and course in their required case styles along with the year, e.g., "ICSI201 Spring 2024".
+12.Display the percentage of male students: Print the percentage of male students formatted to show two decimal places and a percent sign, e.g., "The percentage of the males in ICSI201 Spring 2024 is 74.36%".
+13.Display the percentage of female students: Print the percentage of female students formatted to show two decimal places and a percent sign, e.g., "The percentage of the females in ICSI201 Spring 2024 is 25.64%".

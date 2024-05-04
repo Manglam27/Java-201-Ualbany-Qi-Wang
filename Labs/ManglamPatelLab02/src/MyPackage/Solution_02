@@ -1,0 +1,26 @@
+Input:
+
+1. Read a user-entered monetary amount.
+
+Process:
+
+2. invalidate the user input if it's not valid repeat step 1.
+3. Convert the monetary amount to pennies by multiplying it by 100.
+4. Initialize variables for each type of bill and coin (e.g. $10 bill, $5 bill, $1 bill, etc.).
+5. Determine the number of $10 bills needed by dividing the amount in pennies by 1000 and rounding down.
+6. Subtract the value of the $10 bills from the total amount in pennies.
+7. Repeat steps 3-4 for $10 bills, $5 bills, and $1 bills.
+8. Determine the number of quarters needed by dividing the remaining amount in pennies by 25 and rounding down.
+9. Subtract the value of the quarters from the remaining amount in pennies.
+10. Repeat steps 6-7 for dimes, nickels, and pennies.
+11. Keep track of the number of each bill and coin as you proceed.
+
+Output:
+
+12. Display the fewest number of $10 bills needed.
+13. Display the fewest number of $5 bills needed.
+14. Display the fewest number of $1 bills needed.
+15. Display the fewest number of quarters needed.
+16. Display the fewest number of dimes needed.
+17. Display the fewest number of nickels needed.
+18. Display the fewest number of pennies needed.

@@ -1,0 +1,11 @@
+Input: 
+Prompt the user for five individual scores and a file name.
+
+Process:
+Initiate a loop to collect five scores from the user, storing each score in an integer array.
+After collecting scores, request a file name for saving the scores. 
+Validate the provided file name and create a file with that name. 
+Use a loop to write each score from the array into the file with appropriate labeling.
+
+Output: 
+Write the scores to the specified file in a formatted manner and notify the user of completion.
