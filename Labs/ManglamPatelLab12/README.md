@@ -29,4 +29,4 @@ The `Shape` class is an abstract class representing a generic shape. It provides
 
 ## UML Diagram
 
-![UML Diagram](./src/shapes/uml_diagram.png)
+![UML Diagram](./src/shapes/image.png)
